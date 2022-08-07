@@ -202,7 +202,7 @@ def email_code(no,send_email):
    try:
         msg = MIMEMultipart()
         message = "Your Account verification Code ="+str(no)
-        password = "manthan@330"
+        password = "ml3kqphrt8zto3&!)@l3+2d7wjb&rctb$2pl"
         msg['From'] = "manthangelot@gmail.com"
         msg['To'] = str(send_email)
         msg['Subject'] = "Yogi Industries Auth Code"
